@@ -36,6 +36,23 @@ body {
   border-radius: 1rem;
 }
 
+.header {
+  position: relative;
+}
+
+.header div {
+  position: absolute;
+  width: 100%;
+  border-radius: 1rem;
+  height: 99%;
+  background-color: hsla(178, 100%, 50%, 0.377);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  opacity: 0;
+}
+
 h2 {
   color: white;
   margin: 1rem auto;
@@ -99,23 +116,6 @@ ul li:first-child {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-.header {
-  position: relative;
-}
-
-.header div {
-  position: absolute;
-  width: 100%;
-  border-radius: 1rem;
-  height: 99%;
-  background-color: hsla(178, 100%, 50%, 0.377);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
-  opacity: 0;
 }
 
 .header div:hover {
